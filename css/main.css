@@ -23,8 +23,12 @@ p {
     width: 100%;
 }
 
+.js {
+  width: 15%;
+}
 .form {
-  width: 25%;
+  width: 18%;
+  height: 18%;
   margin-right: 3.5px;
 }
 
@@ -39,4 +43,57 @@ p {
 .container {
   width: 70%;
   }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 25%;
+  }
+  #index-banner .section {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 5%;
+  }
+}
+
+.btn-floating{
+  background-color: #3C91E6;
+}
+
+.btn-floating:hover{
+  background-color: #888995;
+}
+
+.social {
+  background-color: #3C91E6;
+}
+
+.opa-gra {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.one {
+  background-color: #8BCBD5;
+  border-radius: 15px;
+}
+
+.two {
+  background-color: #EFD9CE;
+  border-radius: 15px;
+}
+
+.three {
+  background-color: #AF70A8;
+  border-radius: 15px;
+}
+
+.margin1 {
+  margin-bottom: 2%;
 }
