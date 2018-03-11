@@ -1,5 +1,6 @@
-* {
-  font-family: 'Itim', cursive;
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ul li{
@@ -122,5 +123,9 @@ p {
 }
 
 a {
-  color: #ffff;abia
+  color: #ffff;
+}
+
+.a ul{
+  list-style-type: circle;
 }
