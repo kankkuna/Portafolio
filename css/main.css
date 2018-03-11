@@ -1,3 +1,7 @@
+* {
+  font-family: 'Itim', cursive;
+}
+
 ul li{
   display: inline;
 }
@@ -24,8 +28,10 @@ p {
 }
 
 .js {
-  width: 15%;
+  width: 12%;
+  margin-bottom: 2%;
 }
+
 .form {
   width: 18%;
   height: 18%;
@@ -49,7 +55,8 @@ p {
     margin-right: 3.5px;
   }
   .js {
-    width: 7.5%;
+    width: 6.8%;
+    margin-bottom: 1%;
   }
 }
 
@@ -115,5 +122,5 @@ p {
 }
 
 a {
-  color: #ffff;
+  color: #ffff;abia
 }
