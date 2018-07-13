@@ -1,4 +1,3 @@
-
 *{
   font-family: 'Questrial', sans-serif;
 }
@@ -60,6 +59,13 @@ p {
     width: 6.8%;
     margin-bottom: 1%;
   }
+  .btn-floating{
+    background-color: #3C91E6;
+    bottom: 20%;
+    margin-left: 1%;
+    font-size: 1.2rem;
+  }
+
 }
 
 @media only screen and (max-width : 992px) {
@@ -70,17 +76,29 @@ p {
   #index-banner .section {
     top: 20%;
   }
+  .btn-floating{
+    background-color: #3C91E6;
+    bottom: 40%;
+    margin-left: 1%;
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 5%;
   }
+  .carousel .indicators .indicator-item {
+    margin: 7px 4px;
+  }
+  .btn-floating{
+    background-color: #3C91E6;
+    bottom: 40%;
+    margin-left: 1%;
+    font-size: 1.2rem;
+  }
 }
 
-.btn-floating{
-  background-color: #3C91E6;
-}
 
 .btn-floating:hover{
   background-color: #888995;
@@ -97,17 +115,17 @@ p {
 }
 
 .one {
-  background-color: #8BCBD5;
+  background-color: #8BCBD5;/*celeste*/
   border-radius: 15px;
 }
 
 .two {
-  background-color: #EFD9CE;
+  background-color: #EFD9CE;/*rosa*/
   border-radius: 15px;
 }
 
 .three {
-  background-color: #AF70A8;
+  background-color: #AF70A8;/*morado*/
   border-radius: 15px;
 }
 
