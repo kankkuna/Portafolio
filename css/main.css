@@ -2,6 +2,14 @@
   font-family: 'Questrial', sans-serif;
 }
 
+a {
+  color: #ffff;
+}
+
+h4{
+  line-height: 100%;
+}
+
 ul li{
   display: inline;
 }
@@ -47,7 +55,13 @@ p {
 }
 
 @media only screen and (min-width: 601px){
-.container {
+  .btn-floating{
+    background-color: #3C91E6;
+    bottom: 20%;
+    margin-left: 1%;
+    font-size: 1.2rem;
+  }
+  .container {
   width: 70%;
   }
   .form {
@@ -59,13 +73,6 @@ p {
     width: 6.8%;
     margin-bottom: 1%;
   }
-  .btn-floating{
-    background-color: #3C91E6;
-    bottom: 20%;
-    margin-left: 1%;
-    font-size: 1.2rem;
-  }
-
 }
 
 @media only screen and (max-width : 992px) {
@@ -81,15 +88,15 @@ p {
     bottom: 40%;
     margin-left: 1%;
   }
+  .carousel {
+    height: 200px;
+  }
 
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 5%;
-  }
-  .carousel .indicators .indicator-item {
-    margin: 7px 4px;
   }
   .btn-floating{
     background-color: #3C91E6;
@@ -139,12 +146,4 @@ p {
 
 .margin-top1 {
   margin-top: 5%;
-}
-
-a {
-  color: #ffff;
-}
-
-.a ul{
-  list-style-type: circle;
 }

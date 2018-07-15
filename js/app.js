@@ -1,15 +1,12 @@
-(function($){
-  $(function(){
-    $('.parallax').parallax();
-
-  });
-})(jQuery);
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
 
 $(document).ready(function(){
-    $('.tooltipped').tooltip({delay: 50});
-  });
-
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
+    $('.tooltipped').tooltip({
+      delay: 50});
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+    });
