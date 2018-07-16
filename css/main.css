@@ -81,7 +81,7 @@ p {
     top: 25%;
   }
   #index-banner .section {
-    top: 20%;
+    top: 1%;
   }
   .btn-floating{
     background-color: #3C91E6;
@@ -145,4 +145,8 @@ p {
 
 .margin-top1 {
   margin-top: 5%;
+}
+
+.left-align {
+    text-align: center;
 }
