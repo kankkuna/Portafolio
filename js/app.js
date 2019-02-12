@@ -7,6 +7,6 @@ $(document).ready(function(){
       delay: 50});
       $('.carousel.carousel-slider').carousel({
         fullWidth: true,
-        indicators: true
+        indicators: true,
       });
     });
