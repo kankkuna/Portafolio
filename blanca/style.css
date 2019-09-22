@@ -450,7 +450,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -200px;);
+        bottom: -200px;
         text-align: center;
     }
 }
@@ -1191,7 +1191,7 @@ a:hover, a:active {
     text-align: center;
 }
 
-.footer-social {
+.footer-copyright {
     margin-top: 30px;
 }
 
