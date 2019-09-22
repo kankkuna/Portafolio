@@ -332,9 +332,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero-slider {
-    margin-top: 40px;
-}
 
 .hero-slider img {
     width: 100%;
@@ -410,7 +407,7 @@ a:hover, a:active {
 .yt-subscribe {
     position: absolute;
     right: 15px;
-    bottom: -220px;
+    bottom: -190px;
     z-index: 99;
     width: calc(100% - 30px);
     text-align: center;
@@ -446,13 +443,15 @@ a:hover, a:active {
     .yt-subscribe img {
         width: auto;
     }
+    
 }
 
 @media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -200px;
+        bottom: -140px;
         text-align: center;
     }
+    
 }
 
 /*--------------------------------------------------------------
@@ -460,11 +459,9 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .single-page {
     padding-top: 165px;
-    padding-bottom: 100px;
 }
 
 .single-page .content-wrap {
-    margin-top: 110px;
     text-align: center;
     color: #afafaf;
 }
@@ -523,9 +520,7 @@ a:hover, a:active {
     font-size: 36px;
 }
 
-.single-page .content-wrap .entry-footer {
-    margin-top: 50px;
-}
+
 
 .post-share,
 .comments-count {
@@ -877,19 +872,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
-.sidebar {
-    margin-top: 110px;
-}
-
-.single-page .sidebar {
-    margin-top: 165px;
-}
-
-@media screen and (min-width: 992px){
-    .single-page .sidebar {
-        margin-top: 290px;
-    }
-}
 
 /*--------------------------------------------------------------
 # About Me
@@ -1061,10 +1043,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.sit-footer {
-    padding-top: 100px;
-    border-top: 1px solid #d8d8d8;
-}
 
 .footer-post-wrap {
     margin-bottom: 60px;
@@ -1189,10 +1167,6 @@ a:hover, a:active {
     font-size: 13px;
     color: #b8b8b8;
     text-align: center;
-}
-
-.footer-copyright {
-    margin-top: 30px;
 }
 
 .footer-social ul {
