@@ -34,15 +34,15 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: royalblue;
+    color: rosybrown;
 }
 
 a:visited {
-    color: purple;
+    color: rosybrown;
 }
 
 a:hover, a:focus, a:active {
-    color: midnightblue;
+    color: white;
 }
 
 a:focus {
@@ -130,7 +130,7 @@ a:hover, a:active {
 }
 
 .header-bar-social li a {
-    color: #bec4c9;
+    color: rosybrown;
     transition: all .35s;
 }
 
@@ -340,8 +340,8 @@ a:hover, a:active {
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 30px;
-    left: 38px;
+    bottom: 10px;
+    left: 120px;
     text-align: left;
 }
 
@@ -386,12 +386,12 @@ a:hover, a:active {
     display: inline-block;
     border-radius: 0;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background: #fff;
+    background: black;
 }
 
 @media screen and (min-width: 768px){
@@ -437,7 +437,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 768px){
     .yt-subscribe {
-        bottom: -250px;
+        bottom: -150px;
     }
 
     .yt-subscribe img {
@@ -448,7 +448,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -140px;
+        bottom: -200px;
         text-align: center;
     }
     
@@ -580,6 +580,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px){
     .single-page {
+        margin-top: 10%;
         padding-top: 0;
     }
 
@@ -1137,7 +1138,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px){
     .footer-instagram figure {
-        width: auto;
+        width: 16.666666%;
         margin: 0;
     }
 }
@@ -1186,7 +1187,7 @@ a:hover, a:active {
     width: 14px;
     height: 14px;
     font-size: 14px;
-    color: #74797e;
+    color: rosybrown;
 }
 
 .footer-social li a:hover {
@@ -1204,5 +1205,16 @@ a:hover, a:active {
 
     .footer-social li {
         margin: 0 0 0 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 992px){
+    .single-page .content-wrap .featured-image .karina {
+        max-width: 35%;
+    }
+    .about-second-image img {
+        max-width: 35%;
     }
 }
