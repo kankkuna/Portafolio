@@ -24,7 +24,7 @@
 body {
     color: #2f2f2f;
     font-family: 'HelveticaNeueLTPro-Md';
-}
+}   
 
 img {
     vertical-align: baseline;
@@ -334,13 +334,13 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 
 .hero-slider img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 10px;
+    bottom: -2px;
     left: 120px;
     text-align: left;
 }
@@ -386,12 +386,12 @@ a:hover, a:active {
     display: inline-block;
     border-radius: 0;
     background: transparent;
-    border: 2px solid black;
-    opacity: 1;
+    border: 2px solid #2f2f2f;
+    opacity: 1.5;
 }
 
 .swiper-pagination-bullet-active {
-    background: black;
+    background: #2f2f2f;
 }
 
 @media screen and (min-width: 768px){
@@ -493,7 +493,7 @@ a:hover, a:active {
 }
 
 .single-page .content-wrap .featured-image img {
-    max-width: 100%;
+    max-width: 68%;
 }
 
 .single-page .content-wrap .entry-content {
@@ -550,7 +550,7 @@ a:hover, a:active {
 }
 
 .post-share li a {
-    color: #afafaf;
+    color: #2f2f2f;
     transition: all 0.35s;
 }
 
@@ -642,12 +642,12 @@ a:hover, a:active {
 
 .awards-content h2 {
     margin: 0;
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .awards-content h4 {
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .awards-content p {
@@ -1211,10 +1211,32 @@ a:hover, a:active {
 
 
 @media screen and (min-width: 992px){
+    
+}
+
+@media screen and (min-width: 576px){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
     .single-page .content-wrap .featured-image .karina {
         max-width: 35%;
     }
     .about-second-image img {
-        max-width: 35%;
+        max-width: 30%;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: 450px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: 590px;
     }
 }
