@@ -377,7 +377,7 @@ a:hover, a:active {
 
 .swiper-button-next path,
 .swiper-button-prev path {
-    fill: #3a3a3a;
+    fill: #ffffff;
 }
 
 .swiper-pagination-bullet {
@@ -386,12 +386,12 @@ a:hover, a:active {
     display: inline-block;
     border-radius: 0;
     background: transparent;
-    border: 2px solid #2f2f2f;
+    border: 2px solid #ffffff;
     opacity: 1.5;
 }
 
 .swiper-pagination-bullet-active {
-    background: #2f2f2f;
+    background: #ffffff;
 }
 
 @media screen and (min-width: 768px){
